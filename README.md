@@ -79,7 +79,8 @@ Network Properties:
 Visualization of the dataset:
 Dataset statistics (email-Eu-core-temporal)
 
-<img width="475" alt="image" src="https://github.com/user-attachments/assets/c4b08e93-5305-432e-9928-ebed1b796eb9" />
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/0c4c4b9a-ad58-4e20-9f4c-3910ed496180" />
+
 
  
 email-Eu-core-temporal-Dept1 
