@@ -51,7 +51,8 @@ o	Louvain Method
 Network Properties:
 •	Number of degrees, in-degrees, and out-degrees
 
- 
+ <img width="298" alt="image" src="https://github.com/user-attachments/assets/b3a8386d-15d3-449b-9fc8-1e5514bcd9e6" />
+
 
 
 •	Degree Centrality
