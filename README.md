@@ -57,9 +57,15 @@ Network Properties:
 
 •	Degree Centrality
 
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/ab3567c4-ee40-43c7-a556-835d0ab853e3" />
+
+
  
 
 •	Properties
+
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/59c19f90-5d33-4377-9e46-c4fb736ddeb8" />
+
 
  
 
@@ -72,32 +78,31 @@ Network Properties:
 
 Visualization of the dataset:
 Dataset statistics (email-Eu-core-temporal)
+
+<img width="475" alt="image" src="https://github.com/user-attachments/assets/c4b08e93-5305-432e-9928-ebed1b796eb9" />
+
  
 email-Eu-core-temporal-Dept1 
- 
 
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/26874e58-977a-4519-9365-8dfec72f2482" />
+
+ 
 email-Eu-core-temporal-Dept2
 
- 
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/aec384cd-134e-49e1-98f3-b8120e51d3c6" />
+
 
 
 email-Eu-core-temporal-Dept3
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/7254ba08-e7c0-42ba-ae9e-2809f5ed1b05" />
+
  
 
 
 email-Eu-core-temporal-Dept4
 
- 
-
-
-
-
-
-
-
-
-
-
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/bc9d74e4-4398-4acb-8aa5-389277321646" />
 
 
 
@@ -110,7 +115,9 @@ This is a method to find overlapping communities. It is based on the concept tha
 Algorithm:
 1.	Locate maximal Cliques 
 2.	Convert from Cliques to K-Cliques communities
-Code:
+
+<img width="319" alt="image" src="https://github.com/user-attachments/assets/e5081fa6-4a4b-472a-860b-b01603bb15c2" />
+
  
  
 •	Girvan Newman Method
@@ -120,7 +127,9 @@ Algorithm:
 2.	Remove the edge with the highest betweenness centrality
 3.	Calculate the betweenness centrality for every remaining edge
 4.	Repeat Step 2 and 4, until there are no edges left
-Code:
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/28fc91c3-97d2-49b4-8da0-1727cf84a36f" />
+
   
  
 Using Girvan Newman Method, we find 3 communities.
@@ -131,9 +140,8 @@ Algorithm:
 1.	Firstly, look for "small" communities by optimizing modularity locally.
 2.	Secondly, it aggregates nodes belonging to the same community and builds a new network whose nodes are the communities. 
 3.	Repeat Step 2 and 3, until a maximum of modularity is attained and a hierarchy of communities is produced.
-Code:
- 
- 
 
-Improvisation:
-•	Define community layout to better partition the data to visualize better results.
+
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/093acca1-4c53-4132-b3f9-4b84bb439761" />
+
+ 
